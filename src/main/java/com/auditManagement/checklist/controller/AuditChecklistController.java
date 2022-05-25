@@ -47,7 +47,7 @@ public class AuditChecklistController {
 	})
 	public void getAuditChecklistQuestions(HttpServletRequest request, HttpServletResponse response)
 			throws IOException {
-		String authUri = "http://44.200.189.129:7000/api/authjwt";
+		String authUri = "http://3.236.86.108:7000/api/authjwt";
 		HttpHeaders headers = new HttpHeaders();
 	    headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 	    headers.add("Authorization", request.getHeader("Authorization"));
